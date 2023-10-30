@@ -103,6 +103,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/yargs-parser@npm:*":
+  version: 21.0.2
+  resolution: "@types/yargs-parser@npm:21.0.2"
+  checksum: 422b8c59e21d9594e5a94afa45a3692d96c14f8fc7554bb1c1c390276815f09996ce0f8ed11893b6f8b2efc4ced686231dca5be6d76a4c4ceb56534474e95aca
+  languageName: node
+  linkType: hard
+
+"@types/yargs@npm:^17.0.29":
+  version: 17.0.29
+  resolution: "@types/yargs@npm:17.0.29"
+  dependencies:
+    "@types/yargs-parser": "npm:*"
+  checksum: d8c965c101f7ee3e2f301c02a83dfd5680e4d999d3503c788c13f336868f03ee1498f019552e7d357635a1a36912cbe6751a563e9c339075d30cd131dc361c98
+  languageName: node
+  linkType: hard
+
 "acorn-walk@npm:^8.1.1":
   version: 8.3.0
   resolution: "acorn-walk@npm:8.3.0"
@@ -237,6 +253,7 @@ __metadata:
   dependencies:
     "@types/async": "npm:^3"
     "@types/node": "npm:^20.8.9"
+    "@types/yargs": "npm:^17.0.29"
     async: "npm:^3.2.4"
     glob: "npm:^10.3.10"
     murmurhash: "npm:^2.0.1"

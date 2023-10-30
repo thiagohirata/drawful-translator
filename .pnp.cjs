@@ -28,6 +28,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@types/async", "npm:3.2.22"],\
           ["@types/node", "npm:20.8.9"],\
+          ["@types/yargs", "npm:17.0.29"],\
           ["async", "npm:3.2.4"],\
           ["glob", "npm:10.3.10"],\
           ["murmurhash", "npm:2.0.1"],\
@@ -162,6 +163,25 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@types/node", "npm:20.8.9"],\
           ["undici-types", "npm:5.26.5"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@types/yargs", [\
+      ["npm:17.0.29", {\
+        "packageLocation": "../../.yarn/berry/cache/@types-yargs-npm-17.0.29-6860504025-10c0.zip/node_modules/@types/yargs/",\
+        "packageDependencies": [\
+          ["@types/yargs", "npm:17.0.29"],\
+          ["@types/yargs-parser", "npm:21.0.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@types/yargs-parser", [\
+      ["npm:21.0.2", {\
+        "packageLocation": "../../.yarn/berry/cache/@types-yargs-parser-npm-21.0.2-5eca353eeb-10c0.zip/node_modules/@types/yargs-parser/",\
+        "packageDependencies": [\
+          ["@types/yargs-parser", "npm:21.0.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -322,6 +342,7 @@ const RAW_RUNTIME_STATE =
           ["drawful2-translation", "workspace:."],\
           ["@types/async", "npm:3.2.22"],\
           ["@types/node", "npm:20.8.9"],\
+          ["@types/yargs", "npm:17.0.29"],\
           ["async", "npm:3.2.4"],\
           ["glob", "npm:10.3.10"],\
           ["murmurhash", "npm:2.0.1"],\
