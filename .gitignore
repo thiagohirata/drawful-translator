@@ -6,5 +6,7 @@
 !.yarn/sdks
 !.yarn/versions
 
+# copyrighted files
 original/Drawful2/content/en/Drawful2Prompt.jet
 original/Drawful2/content/en/Drawful2Prompt
+output/extract
